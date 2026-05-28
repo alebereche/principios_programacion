@@ -1,0 +1,33 @@
+# Script 1: Informe del Sistema 
+#!/bin/bash
+#Fecha de escritura: 25/05/2026
+#Autor: alessandra
+
+#Este comando te informa en que usuario te encuentras:
+user=$(whoami)
+
+#Este comando te informa la fecha y hora del sistema:
+sistem=$(date)
+
+#Este comando te informa el directorio de trabajo actual:
+dir=$(pwd)
+
+#Este comando te informa el uso del disco del directorio actual:
+space=$(df -h)
+
+#Este comando te informa la lista de archivos con detalle:
+list=$(ls -lh)
+
+#Imprime este mensaje:
+
+echo "================================================="
+echo "BIENVENIDO AL INFORME DEL SISTEMA"
+echo "================================================="
+echo ""
+echo "Usuario: $user"
+echo "Fecha y hora: $sistem"
+echo "Directorio actual: $dir"
+echo "Uso del disco actual: $space"
+echo "Lista de archivos con detalle: $list"
+echo ""
+echo "GRACIAS"
