@@ -1,4 +1,4 @@
-# tarea_semana_09
+# TAREA SEMANA 9
 Entregables Obligatorios
 Subir a tu repositorio de GitHub (principios-programacion-bioinfo) los siguientes 2 o 3 scripts funcionales:
 
@@ -17,7 +17,7 @@ Crear un script llamado organizador_datos.sh que:
 - Cree una estructura de carpetas para un proyecto bioinformático (mínimo 5 directorios)
 - Cree archivos de ejemplo dentro de al menos 2 directorios
 - Liste la estructura completa creada
-- 
+  
 Script 3: Procesador de Secuencias (Opcional - Bonus)
 Crear un script llamado procesador_fasta.sh que:
 
