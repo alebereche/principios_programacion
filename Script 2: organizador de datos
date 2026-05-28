@@ -1,0 +1,28 @@
+#!/bin/bash
+#organizador_datos.sh
+
+PROYECTO="SEMANA09"
+
+echo "=============================================="
+echo "Creando estructura de proyecto: $PROYECTO ..."
+echo "=============================================="
+echo ""
+
+#Este comando crea una estructura de directorios
+mkdir -p $PROYECTO/{assembly,validation,taxonomy,annotation,trimming}
+
+# Este comando crea archivos de ejemplo en algunos de los directorios
+touch $PROYECTO/trimming/lecturas_filtradas.fastq
+touch $PROYECTO/taxonomy/identificacion_taxonomica.txt
+touch $PROYECTO/assembly/ensamblaje_inicial.fasta
+
+#Este comando muestra los directorios creados
+echo "Estructura creada:"
+find $PROYECTO -type d | sort
+
+echo ""
+#Este comando muestra la estructura completa creada
+tree $PROYECTO
+
+echo ""
+echo "¡Listo para tu análisis!"
