@@ -1,4 +1,4 @@
-# principios_programacion
+# tarea_semana_09
 Entregables Obligatorios
 Subir a tu repositorio de GitHub (principios-programacion-bioinfo) los siguientes 2 o 3 scripts funcionales:
 
